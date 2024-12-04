@@ -22,7 +22,7 @@ ol {
     border-bottom: 5px #08c solid;
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 #logo {
@@ -36,26 +36,39 @@ ol {
     transition: background-size 0.3s ease;
 }
 
-/* #MeniDesna {
-    border: 2px solid red;
-    margin-top: 0.5%;
-    margin-right: 1%;
-    width: fit-content;
-    height: 95%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: auto;
-    overflow: hidden;
+#meniGumb{
+    width: 3rem;
+    height: 75%;
+    margin-right: 20px;
+    background-image: url(slike/arch-logo-mini.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background-size 0.3s ease;
 }
 
-#MeniDesna>ul {
-    display: flex;
-    flex-direction: row;
-    gap: 9%;
-    justify-content: flex-end;
-} */
+#meniBurger{
+    width: 5rem;
+    height: 10rem;
+    margin-top: 7rem;
+    margin-right: 1rem;
+    border: 2px solid #08c;
+    background-color: #333333;
+    text-align: center;
+    display: none;
+    opacity: 0;
+    height: 0; 
+    overflow: hidden; 
+    z-index: 100;
+    transition: opacity 0.3s ease, height 0.3s ease;
+}
+#meniBurger.show {
+    display: block;
+    opacity: 1; 
+    height: auto; 
+}
 
 .meni {
     text-decoration: none;
