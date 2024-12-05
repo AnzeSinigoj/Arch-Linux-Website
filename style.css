@@ -91,16 +91,29 @@ ol {
 
 #vsebina {
     display: flex;
+    justify-content: space-between;
+}
+#leva{
+    height: 100%;
+    width: 70rem;
+    border: 1px solid red;
 }
 
-/* #leva{
-    border: 1px solid black;
+#desna{
+    height: 100%;
+    width: 30rem;
+    margin-right: 1rem;
+    border: 1px solid rebeccapurple;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
 
-} */
 #opis {
     margin: 1%;
     border: 1px solid #bcd;
     background-color: #ecf2f5;
+    border-radius: 10px;
 }
 
 #opis>h1 {
@@ -126,4 +139,29 @@ ol {
 
 #nauci-desno {
     text-align: right;
+}
+
+#pkgsrc{
+    width: 80%;
+    padding: 1rem 0.75rem;
+    border: 1px solid #08c;
+    border-radius: 10px;
+    margin: 3%;
+    background-color: #3ad;
+    font-weight: bold;
+    color: white;
+    font-size: 0.812rem;
+    text-align: center;
+    align-content: center;
+}
+#pkgsrc>form>input{
+    border-radius: 10px;
+    padding: 0.1rem;
+    width: 45%;
+    color: black;
+}
+@media only screen and (max-width:870px) {
+    #pkgsrc>form>input{
+        width: 80%;
+    }
 }
