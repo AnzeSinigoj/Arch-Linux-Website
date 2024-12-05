@@ -96,14 +96,12 @@ ol {
 #leva{
     height: 100%;
     width: 85rem;
-    border: 1px solid red; /*IZBRISI SAMO ZA DEVELOPEMENT*/
 }
 
 #desna{
     height: 100%;
     width: 30rem;
     margin-right: 1rem;
-    border: 1px solid orange; /*IZBRISI SAMO ZA DEVELOPEMENT*/
     justify-content: center;
     display: flex;
     flex-direction: column;
