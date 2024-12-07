@@ -221,7 +221,7 @@ ol {
 }
 @media only screen and (max-width:807px) {
     #updates>h1{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     #updates>div>div>p{
         font-size: 0.6rem
@@ -230,7 +230,26 @@ ol {
         font-size: 0.6rem
     }
 }
-
+@media only screen and (max-width:565px) {
+    #updates{
+        padding: 0.9rem;
+    }
+    #pkgsrc{
+        padding: 0.9rem;
+    }
+    #linki{
+        padding: 0.9rem;
+    }
+    #updates>h1{
+        font-size: 0.5rem;
+    }
+    #updates>div>div>p{
+        font-size: 0.4rem
+    }
+    #updates>div>div>a{
+        font-size: 0.4rem
+    }
+}
 #novice{
     margin: 1%;
     padding: 1rem;
@@ -272,4 +291,24 @@ ol {
 }
 #disk{
     background-color: rgb(253, 253, 193);
+}
+#linki{
+    width: 80%;
+    height: fit-content;
+    margin: 3%;
+    border: 1px solid #bcd;
+    background-color: #ecf2f5;
+    border-radius: 10px;
+    padding: 1rem;
+}
+#linki>ul{
+    margin: 3% 0;
+}
+#linki>ul>li{
+    margin: 0.2% 4%;
+}
+#linki>ul>li>a{
+    color: #08c;
+    text-decoration: none;
+    font-size: 0.8rem;
 }
