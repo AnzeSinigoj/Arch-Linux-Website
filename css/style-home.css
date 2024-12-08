@@ -29,7 +29,7 @@ ol {
     margin: auto;
     height: 95%;
     width: 10rem;
-    background-image: url(slike/arch-logo-white.svg);
+    background-image: url(../slike/arch-logo-white.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -41,7 +41,7 @@ ol {
     width: 3rem;
     height: 75%;
     margin-right: 20px;
-    background-image: url(slike/arch-logo-mini.svg);
+    background-image: url(../slike/arch-logo-mini.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
