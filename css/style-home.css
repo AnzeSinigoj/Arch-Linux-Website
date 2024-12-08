@@ -119,13 +119,12 @@ ol {
 }
 
 #opis>h1 {
-    font-size: 19px;
-    border-bottom: 1px solid black;
+    font-size: 1.35rem;
+    border-bottom: 1px dotted black;
     margin: 15px 5px;
 }
 
 #opis>p {
-    font-size: 13px;
     margin: 15px 5px;
 }
 
@@ -189,7 +188,7 @@ ol {
 }
 
 #updates>h1 {
-    font-size: 19px;
+    font-size: 1rem;
     padding-bottom: 2%;
 }
 
