@@ -12,6 +12,11 @@ Only **Home** and **Download** pages work!
 
 
 ### Images:
+Home page:
 ![Home page](/za-readme/archweb1.png)
+
+Drop down menu:
 ![Drop down menu](/za-readme/archweb2.png)
+
+Download page:
 ![Download page](/za-readme/archweb3.png)
