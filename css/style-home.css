@@ -189,14 +189,14 @@ ol {
 }
 
 #updates>h1 {
-    font-size: 1.5rem;
-    padding-bottom: 3%;
+    font-size: 19px;
+    padding-bottom: 2%;
 }
 
 #updates>table{
     width: 100%;
     height: fit-content;
-    border-spacing: 0 0.3rem;
+    border-spacing: 0 0.4rem;
 }
 
 #updates>table>tr>td {
