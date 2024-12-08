@@ -9,3 +9,9 @@ Had to use canvas in the dowload section but that can easly be replaced with a S
 Only **Home** and **Download** pages work!
 
 **DO NOT EXECUTE COMMANDS FOUND IN THE NEWS SECTION!**
+
+
+### Images:
+![Home page](/za-readme/archweb1.png)
+![Drop down menu](/za-readme/archweb2.png)
+![Download page](/za-readme/archweb3.png)
