@@ -1,6 +1,6 @@
 # Arch Linux Website
 
-This is a remake of the [Arch Linux website](archlinux.org) made for a school project.
+This is a remake of the [Arch Linux website](https://archlinux.org/) made for a school project.
 
 Had to use canvas in the dowload section but that can easly be replaced with a SVG.
 
