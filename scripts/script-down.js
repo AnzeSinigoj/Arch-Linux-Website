@@ -25,14 +25,14 @@ function draw() {
     ctx.scale(3.5,1.8);
     ctx.translate(canvas.width/100, canvas.height/60);
     ctx.save();
-    ctx.strokeStyle = "rgba(0,0,0,0)";
+    ctx.fillStyle = "#08c";
     ctx.miterLimit = 4;
     ctx.font = "15px ''";
     ctx.font = "   15px ''";
     ctx.scale(0.06249458708300855, 0.06249458708300855);
     ctx.scale(1.0667590551181103, 1.0667590551181103);
     ctx.save();
-    ctx.fillStyle = "rgba(0,0,0,0)";
+    ctx.fillStyle = "#08c";
     ctx.strokeStyle = "black";
     ctx.font = "   15px ''";
     ctx.beginPath();
