@@ -97,10 +97,13 @@ ol {
     justify-content: center;
 }
 #canvas_div{
-    width: 18rem;
-    height: 18rem;
+    width: 18vw;
+    height: 16vw;
     margin: 1%;
-    border: 2px dotted #08c;   
+}
+#canvasID{
+    width: 100%;
+    height: 100%;
 }
 #prenos{
     margin: 1%;
@@ -152,4 +155,12 @@ ol {
 }
 .center{
     text-align: center;
+}
+
+@media only screen and (max-width:812px) {
+    #vsebina{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
 }
