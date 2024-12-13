@@ -22,3 +22,4 @@ Only **Home** and **Download** pages work!
 
 **Download page:**
 
+![Download page](/za-readme/archweb3.png)
